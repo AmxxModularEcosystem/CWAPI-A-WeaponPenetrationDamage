@@ -7,7 +7,7 @@ public stock const PluginName[] = "[CWAPI-A] Weapon Penetration Damage";
 public stock const PluginVersion[] = "1.0.0";
 public stock const PluginAuthor[] = "notihng to say.";
 public stock const PluginURL[] = "https://github.com/AmxxModularEcosystem/CWAPI-A-Snowball";
-public stock const PluginDescription[] = "[CustomWeaponsAPI-Ability] Freezing on damage.";
+public stock const PluginDescription[] = "[CustomWeaponsAPI-Ability] Weapon Penetration Damage.";
 
 new const AbilityName[] = "WeaponPenetrationDamage";
 
