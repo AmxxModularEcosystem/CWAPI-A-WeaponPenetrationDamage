@@ -1,10 +1,9 @@
 #include <amxmodx>
 #include <cwapi>
-#include <hamsandwich>
 #include <reapi>
 
 public stock const PluginName[] = "[CWAPI-A] Weapon Penetration Damage";
-public stock const PluginVersion[] = "1.0.0";
+public stock const PluginVersion[] = "1.0.1";
 public stock const PluginAuthor[] = "notihng to say.";
 public stock const PluginURL[] = "https://github.com/AmxxModularEcosystem/CWAPI-A-Snowball";
 public stock const PluginDescription[] = "[CustomWeaponsAPI-Ability] Weapon Penetration Damage.";
@@ -23,7 +22,7 @@ public CWAPI_OnLoad() {
 }
 
 public CWAPI__Hook_OnDamage(const T_CustomWeapon: tWeapon, const itemIndex, const pVictim, const inflictorIndex, const pAttacker, &Float: fDamage, &bDamageType, const Trie: tAbilityParams) {
-    if(ExecuteHam(Ham_FVisible, pAttacker, pVictim))
+    if(get_member(pVictim, m_ucDmgPenetrationLevel) == 0)
         return;
 
     new Float: fMultiDamage;
