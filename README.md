@@ -5,6 +5,7 @@
 ## Требования
 
 - [CustomWeaponsAPI](https://github.com/AmxxModularEcosystem/CustomWeaponsAPI) версии [1.0.0-b3](https://github.com/AmxxModularEcosystem/CustomWeaponsAPI/releases/tag/1.0.0-b3) или новее
+- [ReAPI](https://github.com/rehlds/ReAPI) версии [5.24.0.300](https://github.com/rehlds/ReAPI/releases/tag/5.24.0.300) или [новее](https://github.com/rehlds/ReAPI/releases/latest)
 
 ---
 
